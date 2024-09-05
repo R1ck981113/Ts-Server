@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\src\\main.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "args": [
+                // "--path=E:\\Program Files (x86)\\HuyaClient\\HuyaClient\\huya.exe",
+                //"--Root=GamePP",
+                ///"--definitions"
+                //"--sync",
+                //"D:\\Works2\\MythCoolElectron\\projects\\WAP-platform\\dist",
+                //"\\\\buildresult.gamepp.com\\buildsync\\MythCool\\MythCool",
+                //"--exclude",
+                //"resources"
+                //"--ShowLog=dfasdf"
+                // "--asarpackfront",
+                // "--src=C:\\Users\\DSD\\AppData\\Local\\GamePP\\Apps\\f647a66b00b8631745c1d63bb5c59e2b\\Debugdd",
+                // "--dest=d:\\output\\webapp.gpk",
+                // "--url=E:\\Program Files (x86)\\HuyaClient\\HuyaClient\\huya.exe",
+                // "--version=123",
+                // "--module=test",
+                // "--postmoduleurl",
+                //  "--rcpath=E:\\desktop\\GamePP\\ver.rc",
+                //  "--version=3.0.0.0",
+                //  "--resetversion",
+                // "--path=E:\\desktop\\disg\\Matrix\\GamePP-Workflow-Matrix\\tools\\BaseUtils64.node",
+                 "--checkqqmgr",
+            ]
+        }
+    ]
+}
